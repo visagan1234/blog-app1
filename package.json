@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "$2a$10$XQkQeWq5pJ7s0V4E9UfS8Oe2pWvV6K1h3jF2dG5hJ9kL3mN4bC6dE"
+    },
+    {
+      "id": "2",
+      "username": "alex",
+      "password": "$2a$10$YQkQeWq5pJ7s0V4E9UfS8Oe2pWvV6K1h3jF2dG5hJ9kL3mN4bC6dF"
+    },
+    {
+      "id": "3",
+      "username": "jessica",
+      "password": "$2a$10$ZQkQeWq5pJ7s0V4E9UfS8Oe2pWvV6K1h3jF2dG5hJ9kL3mN4bC6dG"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "title": "Why I Switched to TypeScript (and Never Looked Back)",
+      "content": "After years of writing JavaScript, I finally gave TypeScript a serious try. The type safety alone saved me hours of debugging. In this post, I share my top 5 reasons for the switch, how I migrated a large codebase, and the tools that made the transition smooth. Whether you're a beginner or a seasoned dev, TypeScript is worth the investment.",
+      "authorId": "1",
+      "authorName": "admin",
+      "createdAt": 1715000000000,
+      "comments": [
+        {
+          "id": "c1",
+          "authorName": "alex",
+          "content": "I've been on the fence, but your post convinced me to try it. Any recommendation for a starter project?",
+          "createdAt": 1715001800000
+        },
+        {
+          "id": "c2",
+          "authorName": "jessica",
+          "content": "Great read! I love how you explained the 'any' escape hatch – that's where I always get stuck.",
+          "createdAt": 1715003000000
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "The Art of Mindful Remote Work",
+      "content": "Working from home is a blessing, but it can also be a trap for burnout. I've learned to set boundaries, create a dedicated workspace, and incorporate short meditation breaks. In this article, I share practical tips that have boosted my productivity and mental health – from digital detox to the Pomodoro technique. Working remotely doesn't mean working all the time.",
+      "authorId": "2",
+      "authorName": "alex",
+      "createdAt": 1715200000000,
+      "comments": [
+        {
+          "id": "c3",
+          "authorName": "admin",
+          "content": "Excellent advice! I started using the Forest app to stay focused, and it helped a lot.",
+          "createdAt": 1715201800000
+        },
+        {
+          "id": "c4",
+          "authorName": "jessica",
+          "content": "I needed this. Any tips for dealing with noisy roommates? 😅",
+          "createdAt": 1715203000000
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "How to Build a Personal Brand on Social Media (Without Feeling Fake)",
+      "content": "Building a personal brand doesn't have to be cringe. I've grown my online presence authentically by sharing my real journey – the wins and the failures. In this post, I break down a simple framework: find your niche, tell stories, engage genuinely, and be consistent. You don't need millions of followers; you just need the right ones.",
+      "authorId": "3",
+      "authorName": "jessica",
+      "createdAt": 1715400000000,
+      "comments": [
+        {
+          "id": "c5",
+          "authorName": "alex",
+          "content": "Love this! I've been struggling with imposter syndrome. How do you handle negative comments?",
+          "createdAt": 1715401800000
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "title": "The Rise of AI in Everyday Life – A Beginner's Guide",
+      "content": "AI is everywhere, but it doesn't have to be intimidating. From smart assistants to personalized recommendations, I explain how AI works under the hood, the ethical questions we face, and how you can leverage AI tools to boost your daily productivity. No math degree required – just curiosity.",
+      "authorId": "1",
+      "authorName": "admin",
+      "createdAt": 1715600000000,
+      "comments": []
+    },
+    {
+      "id": "p5",
+      "title": "Top 5 Books That Changed My Perspective on Life",
+      "content": "Reading is my superpower. These five books – spanning philosophy, psychology, and fiction – reshaped how I view success, relationships, and happiness. I share my key takeaways and why each one is a must-read. If you're looking for a transformative read, start with this list.",
+      "authorId": "2",
+      "authorName": "alex",
+      "createdAt": 1715800000000,
+      "comments": [
+        {
+          "id": "c6",
+          "authorName": "jessica",
+          "content": "I've read three of these – adding the others to my list! Thanks for sharing.",
+          "createdAt": 1715801800000
+        }
+      ]
+    }
+  ]
+}
